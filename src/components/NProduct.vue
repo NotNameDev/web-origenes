@@ -1,15 +1,13 @@
 <template>
-
+  <div class="nProduct"></div>
 </template>
 
 <script>
-
-
 export default {
-  name: 'Home',
 
-  components: {
-   
-  }
 }
 </script>
+
+<style>
+
+</style>
