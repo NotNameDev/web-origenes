@@ -1,15 +1,18 @@
 <template>
   <div class="nNavbar">
-    <!-- <v-card
-      class="mx-auto overflow-hidden"
-    > -->
-      <!-- <v-system-bar color="deep-purple darken-3"></v-system-bar> -->
-
       <v-app-bar
         color="deep-purple accent-4"
         dark
       >
-        <v-toolbar-title style="width: 230px; border: solid 2px red;">Azucarera Orígenes</v-toolbar-title>
+        <v-toolbar-title
+          style="width: 230px;"
+        >
+          <v-img
+            contain
+            height="40px"
+            max-width="80px"
+            src="../assets/origenes_logo_blanco.png"></v-img>
+        </v-toolbar-title>
         <v-spacer></v-spacer>
         <v-tabs
           v-if="$vuetify.breakpoint.mdAndUp"
@@ -23,13 +26,6 @@
           v-if="$vuetify.breakpoint.smAndDown"
           @click.stop="drawer = !drawer"
         ></v-app-bar-nav-icon>
-      <!-- <template v-slot:extension>
-        <v-tabs align-with-title>
-          <v-tab>Tab 1</v-tab>
-          <v-tab>Tab 2</v-tab>
-          <v-tab>Tab 3</v-tab>
-        </v-tabs>
-      </template> -->
       </v-app-bar>
       <v-navigation-drawer
         v-model="drawer"
@@ -47,8 +43,6 @@
             v-model="group"
             active-class="primary--text text--darken-3"
           >
-            <!-- <v-list-item> -->
-              <!-- <v-list-item-title class="d-flex justify-end"> -->
                 <div class="d-flex justify-end">
                   <v-btn
                     text
@@ -61,9 +55,6 @@
                   </v-btn>
 
                 </div>
-              <!-- </v-list-item-title> -->
-            <!-- </v-list-item> -->
-
             <v-list-item>
               <v-list-item-title class="primary--text">Nosotros</v-list-item-title>
             </v-list-item>
@@ -78,11 +69,6 @@
           </v-list-item-group>
         </v-list>
       </v-navigation-drawer>
-
-      <v-card-text>
-        The navigation drawer will appear from the bottom on smaller size screens.
-      </v-card-text>
-    <!-- </v-card> -->
   </div>
 </template>
 
