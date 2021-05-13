@@ -1,5 +1,6 @@
 <template>
-  <v-container fluid>
+  <div class="mainPage">
+    <NNavbar />
     <NHome />
     <NAbout />
     <NProduct />
@@ -7,11 +8,12 @@
     <NFooter />
     <NMedia />
     <NSignature />
-  </v-container>
+  </div>
 
 </template>
 
 <script>
+import NNavbar from '../components/NNavbar'
 import NHome from '../components/NHome'
 import NAbout from '../components/NAbout'
 import NProduct from '../components/NProduct'
@@ -23,6 +25,7 @@ import NSignature from '../components/NSignature'
 export default {
   name: 'MainPage',
   components: {
+    NNavbar,
     NHome,
     NAbout,
     NProduct,
