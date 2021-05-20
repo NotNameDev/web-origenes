@@ -1,12 +1,14 @@
 <template>
   <div class="mainPage">
     <NNavbar />
-    <NHome />
-    <NAbout />
-    <NProduct />
-    <NContact />
-    <NFooter />
-    <NMedia />
+    <v-container>
+      <NHome />
+      <NAbout />
+      <NProduct />
+      <NContact />
+      <NFooter />
+      <NMedia />
+    </v-container>
     <NSignature />
   </div>
 
