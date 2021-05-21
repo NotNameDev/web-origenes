@@ -16,3 +16,7 @@ export default {
   })
 }
 </script>
+<style>
+@import url("../src/assets/css/styles.css");
+
+</style>

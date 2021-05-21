@@ -1,6 +1,5 @@
 <template>
   <div class="nContact">
-    <h1 class="text-center text-uppercase">Contacto</h1>
     <v-text-field
       label="Nombre"
       outlined
