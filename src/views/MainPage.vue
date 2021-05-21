@@ -2,12 +2,43 @@
   <div class="mainPage">
     <NNavbar />
     <v-container>
-      <NHome />
-      <NAbout />
-      <NProduct />
-      <NContact />
-      <NFooter />
-      <NMedia />
+      <div class="d-flex justify-center">
+        <v-card
+          width="1000"
+          elevation="0"
+        >
+          <v-card-text>
+            <NHome />
+            <NAbout />
+            <NProduct />
+            <v-row>
+              <v-col cols="12">
+                <h1 class="text-center text-uppercase">Contacto</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse velit doloremque quo beatae quam eum, tempore consectetur, quia blanditiis adipisci earum atque. Alias impedit aspernatur, saepe molestiae omnis ducimus cumque, sit corporis tempore mollitia rem sint esse placeat itaque ea, reiciendis numquam!</p>
+              </v-col>
+              <v-col
+                cols="12"
+                lg="6"
+                md="6"
+                sm="6"
+                xs="12"
+              >
+                <NContact />
+              </v-col>
+              <v-col
+                cols="12"
+                lg="6"
+                md="6"
+                sm="6"
+                xs="12"
+              >
+                <NFooter />
+              </v-col>
+            </v-row>
+            <NMedia />
+          </v-card-text>
+        </v-card>
+      </div>
     </v-container>
     <NSignature />
   </div>
