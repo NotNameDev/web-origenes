@@ -9,6 +9,12 @@
         >
           <v-card-text>
             <NHome />
+            <v-row>
+              <v-col cols="12">
+                <h1 class="text-center text-uppercase">Nosotros</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse velit doloremque quo beatae quam eum, tempore consectetur, quia blanditiis adipisci earum atque. Alias impedit aspernatur, saepe molestiae omnis ducimus cumque, sit corporis tempore mollitia rem sint esse placeat itaque ea, reiciendis numquam!</p>
+              </v-col>
+            </v-row>
             <NAbout />
             <NProduct />
             <v-row>
