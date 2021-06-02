@@ -32,6 +32,7 @@
                 <NContact />
               </v-col>
               <v-col
+                class="d-flex flex-column"
                 cols="12"
                 lg="6"
                 md="6"
@@ -39,6 +40,7 @@
                 xs="12"
               >
                 <NFooter />
+                <NMap class="flex-grow-1 elevation-4"/>
               </v-col>
             </v-row>
             <NMedia />
@@ -60,6 +62,7 @@ import NContact from '../components/NContact'
 import NFooter from '../components/NFooter'
 import NMedia from '../components/NMedia'
 import NSignature from '../components/NSignature'
+import NMap from '../components/NMap'
 
 export default {
   name: 'MainPage',
@@ -71,7 +74,8 @@ export default {
     NContact,
     NFooter,
     NMedia,
-    NSignature
+    NSignature,
+    NMap
   }
 }
 </script>
