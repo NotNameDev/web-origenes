@@ -19,9 +19,9 @@
       outlined
       label="Mensaje"
     ></v-textarea>
-    <v-btn 
-      color="secondary primary--text" 
-      elevation="5" 
+    <v-btn
+      color="secondary primary--text"
+      elevation="5"
       x-large width="100%"
     >
     Enviar
