@@ -27,7 +27,7 @@
         <v-icon>mdi-map-marker</v-icon>
       </v-list-item-icon>
       <v-list-item-content>
-        <v-list-item-title>Isla de los Estados 2031, La Rioja Capital</v-list-item-title>
+        <v-list-item-title>Isabel la Católica 994, Córdoba Capital</v-list-item-title>
       </v-list-item-content>
     </v-list-item>
   </div>
