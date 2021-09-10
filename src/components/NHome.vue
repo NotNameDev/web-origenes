@@ -1,10 +1,16 @@
 <template>
-  <div class="nHome"></div>
+  <div class="nHome">
+    <NStars2 />
+  </div>
 </template>
-
 <script>
-export default {
+import NStars2 from '../components/NStars2'
 
+export default {
+  name: 'NHome',
+  components: {
+    NStars2
+  }
 }
 </script>
 

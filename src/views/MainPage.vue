@@ -1,7 +1,7 @@
 <template>
   <div class="mainPage">
     <NNavbar />
-    <v-container>
+    <!-- <v-container> -->
       <div class="d-flex justify-center">
         <v-card
           width="1000"
@@ -9,6 +9,7 @@
         >
           <v-card-text>
             <NHome />
+            <!-- <NStars /> -->
             <v-row>
               <v-col cols="12">
                 <h1 class="text-center text-uppercase">Nosotros</h1>
@@ -47,7 +48,7 @@
           </v-card-text>
         </v-card>
       </div>
-    </v-container>
+    <!-- </v-container> -->
     <NSignature />
   </div>
 
@@ -63,6 +64,7 @@ import NFooter from '../components/NFooter'
 import NMedia from '../components/NMedia'
 import NSignature from '../components/NSignature'
 import NMap from '../components/NMap'
+// import NStars from '../components/NStars'
 
 export default {
   name: 'MainPage',
@@ -76,6 +78,7 @@ export default {
     NMedia,
     NSignature,
     NMap
+    // NStars
   }
 }
 </script>

@@ -1,17 +1,17 @@
 <template>
   <div class="nNavbar">
       <v-app-bar
-        color="deep-purple accent-4"
+        color="primary"
         dark
       >
         <v-toolbar-title
           style="width: 230px;"
         >
-          <v-img
+          <!-- <v-img
             contain
             height="40px"
             max-width="80px"
-            src="../assets/origenes_logo_blanco.png"></v-img>
+            src="../assets/origenes_logo_blanco.png"></v-img> -->
         </v-toolbar-title>
         <v-spacer></v-spacer>
         <v-tabs
