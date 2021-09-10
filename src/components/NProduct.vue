@@ -1,5 +1,7 @@
 <template>
-  <div class="nProduct"></div>
+  <div class="nProduct">
+    <h1>Borrar, subiendo prueba</h1>
+  </div>
 </template>
 
 <script>
