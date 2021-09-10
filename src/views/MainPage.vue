@@ -1,0 +1,81 @@
+<template>
+  <div class="mainPage">
+    <NNavbar />
+    <v-container>
+      <div class="d-flex justify-center">
+        <v-card
+          width="1000"
+          elevation="0"
+        >
+          <v-card-text>
+            <NHome />
+            <v-row>
+              <v-col cols="12">
+                <h1 class="text-center text-uppercase">Nosotros</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse velit doloremque quo beatae quam eum, tempore consectetur, quia blanditiis adipisci earum atque. Alias impedit aspernatur, saepe molestiae omnis ducimus cumque, sit corporis tempore mollitia rem sint esse placeat itaque ea, reiciendis numquam!</p>
+              </v-col>
+            </v-row>
+            <NAbout />
+            <NProduct />
+            <v-row>
+              <v-col cols="12">
+                <h1 class="text-center text-uppercase">Contacto</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse velit doloremque quo beatae quam eum, tempore consectetur, quia blanditiis adipisci earum atque. Alias impedit aspernatur, saepe molestiae omnis ducimus cumque, sit corporis tempore mollitia rem sint esse placeat itaque ea, reiciendis numquam!</p>
+              </v-col>
+              <v-col
+                cols="12"
+                lg="6"
+                md="6"
+                sm="6"
+                xs="12"
+              >
+                <NContact />
+              </v-col>
+              <v-col
+                class="d-flex flex-column"
+                cols="12"
+                lg="6"
+                md="6"
+                sm="6"
+                xs="12"
+              >
+                <NFooter />
+                <NMap class="flex-grow-1 elevation-4"/>
+              </v-col>
+            </v-row>
+            <NMedia />
+          </v-card-text>
+        </v-card>
+      </div>
+    </v-container>
+    <NSignature />
+  </div>
+
+</template>
+
+<script>
+import NNavbar from '../components/NNavbar'
+import NHome from '../components/NHome'
+import NAbout from '../components/NAbout'
+import NProduct from '../components/NProduct'
+import NContact from '../components/NContact'
+import NFooter from '../components/NFooter'
+import NMedia from '../components/NMedia'
+import NSignature from '../components/NSignature'
+import NMap from '../components/NMap'
+
+export default {
+  name: 'MainPage',
+  components: {
+    NNavbar,
+    NHome,
+    NAbout,
+    NProduct,
+    NContact,
+    NFooter,
+    NMedia,
+    NSignature,
+    NMap
+  }
+}
+</script>
