@@ -19,22 +19,19 @@ export default {
     return {
       items: [
         {
-          src: require('../assets/img/Origenes_azucar_Page_05.png')
+          src: require('../assets/img/Azucar-01.jpeg')
         },
         {
-          src: require('../assets/img/Origenes_azucar_Page_06.png')
+          src: require('../assets/img/Azucar-02.jpeg')
         },
         {
-          src: require('../assets/img/Origenes_azucar_Page_07.png')
+          src: require('../assets/img/Azucar-03.jpeg')
         },
         {
-          src: require('../assets/img/Origenes_azucar_Page_08.png')
+          src: require('../assets/img/Azucar-04.jpeg')
         },
         {
-          src: require('../assets/img/Origenes_azucar_Page_09.png')
-        },
-        {
-          src: require('../assets/img/Origenes_azucar_Page_10.png')
+          src: require('../assets/img/Azucar-05.jpeg')
         }
       ]
     }
