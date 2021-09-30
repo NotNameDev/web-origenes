@@ -1,7 +1,23 @@
 <template>
   <div class="mainPage">
     <NNavbar />
-    <!-- <v-container> -->
+    <v-container>
+      <v-fab-transition>
+        <v-btn
+          color="#25d366"
+          fixed
+          fab
+          large
+          dark
+          bottom
+          right
+          class="mb-5"
+          href="https://wa.me/5493516451916"
+          target="_blank"
+        >
+          <v-icon x-large>mdi-whatsapp</v-icon>
+        </v-btn>
+      </v-fab-transition>
       <div class="d-flex justify-center">
         <v-card
           width="1000"
@@ -12,15 +28,19 @@
             <!-- <NStars /> -->
             <v-row>
               <v-col cols="12">
-                <h1 class="text-center text-uppercase">Nosotros</h1>
+                <h1 class="text-center text-uppercase mb-3">Nosotros</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse velit doloremque quo beatae quam eum, tempore consectetur, quia blanditiis adipisci earum atque. Alias impedit aspernatur, saepe molestiae omnis ducimus cumque, sit corporis tempore mollitia rem sint esse placeat itaque ea, reiciendis numquam!</p>
               </v-col>
             </v-row>
-            <NAbout />
+            <v-row>
+              <v-col>
+                <NAbout />
+              </v-col>
+            </v-row>
             <NProduct />
             <v-row>
               <v-col cols="12">
-                <h1 class="text-center text-uppercase">Contacto</h1>
+                <h1 class="text-center text-uppercase mb-3">Contacto</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse velit doloremque quo beatae quam eum, tempore consectetur, quia blanditiis adipisci earum atque. Alias impedit aspernatur, saepe molestiae omnis ducimus cumque, sit corporis tempore mollitia rem sint esse placeat itaque ea, reiciendis numquam!</p>
               </v-col>
               <v-col
