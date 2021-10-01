@@ -18,9 +18,9 @@
           v-if="$vuetify.breakpoint.mdAndUp"
           right
         >
-          <v-tab>Nosotros</v-tab>
-          <v-tab>Producto</v-tab>
-          <v-tab>Contacto</v-tab>
+          <v-tab @click="$vuetify.goTo($parent.$refs.about)">Nosotros</v-tab>
+          <v-tab @click="$vuetify.goTo($parent.$refs.product)">Producto</v-tab>
+          <v-tab @click="$vuetify.goTo($parent.$refs.contact)">Contacto</v-tab>
         </v-tabs>
         <v-app-bar-nav-icon
           v-if="$vuetify.breakpoint.smAndDown"
@@ -56,15 +56,30 @@
 
                 </div>
             <v-list-item>
-              <v-list-item-title class="primary--text">Nosotros</v-list-item-title>
+              <v-list-item-title
+                class="primary--text"
+                @click="$vuetify.goTo($parent.$refs.about)"
+              >
+                Nosotros
+              </v-list-item-title>
             </v-list-item>
 
             <v-list-item>
-              <v-list-item-title class="primary--text">Producto</v-list-item-title>
+              <v-list-item-title
+                class="primary--text"
+                @click="$vuetify.goTo($parent.$refs.product)"
+              >
+                Producto
+              </v-list-item-title>
             </v-list-item>
 
             <v-list-item>
-              <v-list-item-title class="primary--text">Contacto</v-list-item-title>
+              <v-list-item-title
+                class="primary--text"
+                @click="$vuetify.goTo($parent.$refs.contact)"
+              >
+                Contacto
+              </v-list-item-title>
             </v-list-item>
           </v-list-item-group>
         </v-list>

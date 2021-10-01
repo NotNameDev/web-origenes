@@ -1,7 +1,7 @@
 <template>
   <div class="mainPage">
     <NNavbar />
-    <v-container>
+    <v-container fluid>
       <v-fab-transition>
         <v-btn
           color="#25d366"
@@ -18,14 +18,12 @@
           <v-icon x-large>mdi-whatsapp</v-icon>
         </v-btn>
       </v-fab-transition>
-      <div class="d-flex justify-center">
+      <div class="d-flex justify-center n-width-complete">
         <v-card
-          width="1000"
           elevation="0"
         >
           <v-card-text>
-            <NHome />
-            <!-- <NStars /> -->
+            <NHome @click="$vuetify.goTo(this.$refs.contact)" />
             <v-row>
               <v-col cols="12">
                 <h1 class="text-center text-uppercase mb-3">Nosotros</h1>
@@ -34,10 +32,10 @@
             </v-row>
             <v-row>
               <v-col>
-                <NAbout />
+                <NAbout ref="about"/>
               </v-col>
             </v-row>
-            <NProduct />
+            <NProduct ref="product"/>
             <v-row>
               <v-col cols="12">
                 <h1 class="text-center text-uppercase mb-3">Contacto</h1>
@@ -50,7 +48,7 @@
                 sm="6"
                 xs="12"
               >
-                <NContact />
+                <NContact ref="contact"/>
               </v-col>
               <v-col
                 class="d-flex flex-column"
@@ -84,7 +82,6 @@ import NFooter from '../components/NFooter'
 import NMedia from '../components/NMedia'
 import NSignature from '../components/NSignature'
 import NMap from '../components/NMap'
-// import NStars from '../components/NStars'
 
 export default {
   name: 'MainPage',
@@ -98,7 +95,6 @@ export default {
     NMedia,
     NSignature,
     NMap
-    // NStars
   }
 }
 </script>

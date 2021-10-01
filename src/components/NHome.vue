@@ -1,19 +1,40 @@
 <template>
   <div class="nHome">
-    <NStars2 />
+    <div class="">
+      <v-row justify="end" align="end">
+        <v-col
+          cols="12"
+          class=""
+        >
+          <v-img
+            src="../assets/img/Azucar-05.jpeg"
+            cover
+            max-height="700"
+          ></v-img>
+        </v-col>
+        <v-col
+          cols="8"
+          sm="8"
+          xs="7"
+          class="image-text"
+        >
+          <p
+            class="font-weight-bold white--text d-flex text-end mr-10"
+            :class="$vuetify.breakpoint.xs ? '' : 'text-h2'"
+          >Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </v-col>
+      </v-row>
+    </div>
   </div>
 </template>
 <script>
-import NStars2 from '../components/NStars2'
-
 export default {
-  name: 'NHome',
-  components: {
-    NStars2
-  }
+  name: 'NHome'
 }
 </script>
 
-<style>
-
+<style scoped>
+  .image-text {
+    position: absolute;
+  }
 </style>
