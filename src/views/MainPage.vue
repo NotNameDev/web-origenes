@@ -27,12 +27,8 @@
             <v-row>
               <v-col cols="12">
                 <h1 class="text-center text-uppercase mb-3">Nosotros</h1>
-                <!-- Falta mejorar el texto -->
-                <p>Somos una empresa familiar que se dedica exclusivamente  al fraccionado, comercialización y distribución de azúcar. Contamos con más de 10 años de experiencia en el rubro. Nuestras sedes son en Tucumán y Córdoba Capital.</p>
-                <p>Somos Fraccionadora Orígenes, una empresa familiar que cuenta con más de 10 años de experiencia en el rubro de la comercialización y distribución de azúcar.
-                Estamos ubicados en San Miguel de Tucumán y Córdoba.</p>
-                <p>Comercializamos Azúcar común tipo “A”, en bolsas por 50 Kg y en fardos de 10 paquetes de 1Kg fraccionada.</p>
-                <p>Poseemos stock de manera permanente, lo que nos permite cumplir con la demanda de nuestros clientes, en tiempo y forma, durante los 365 días del año.</p>
+                <!--Falta mejorar el texto-->
+                <p>Somos una empresa familiar que se dedica exclusivamente al fraccionado, comercialización y distribución de azúcar. Contamos con más de 10 años de experiencia en el rubro. Nuestras sedes son en Tucumán y Córdoba Capital</p>
               </v-col>
             </v-row>
             <v-row>
