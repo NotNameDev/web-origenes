@@ -1,6 +1,6 @@
 <template>
   <div class="nAbout">
-  <v-carousel
+  <!-- <v-carousel
     :show-arrows="!$vuetify.breakpoint.smAndDown"
     cycle
   >
@@ -9,7 +9,7 @@
       :key="i"
       :src="item.src"
     ></v-carousel-item>
-  </v-carousel>
+  </v-carousel> -->
   </div>
 </template>
 
