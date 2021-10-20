@@ -1,5 +1,6 @@
 <template>
   <div class="nContact">
+    <form name="contact" method="POST" data-netlify="true">
     <v-text-field
       label="Nombre"
       outlined
@@ -26,6 +27,7 @@
     >
     Enviar
     </v-btn>
+    </form>
   </div>
 </template>
 
