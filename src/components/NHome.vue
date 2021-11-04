@@ -1,10 +1,10 @@
 <template>
   <div class="nHome">
     <div class="">
-      <v-row justify="end" align="end">
+      <v-row justify="end" align="end" class="pa-0 ma-0">
         <v-col
           cols="12"
-          class=""
+          class="pa-0 ma-0"
         >
           <v-img
             src="../assets/img/Azucar-05.jpeg"
