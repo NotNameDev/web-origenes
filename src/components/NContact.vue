@@ -28,7 +28,7 @@
       label="Mensaje"
     ></v-textarea>
     <v-btn
-      color="accent primary--text"
+      color="info white--text"
       elevation="5"
       x-large width="100%"
     >
