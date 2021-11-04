@@ -1,7 +1,7 @@
 <template>
   <div class="mainPage">
     <NNavbar />
-    <v-container fluid>
+    <v-container fluid class="ma-0 pa-0">
       <v-fab-transition>
         <v-btn
           color="#25d366"
@@ -19,10 +19,10 @@
         </v-btn>
       </v-fab-transition>
       <div class="d-flex justify-center n-width-complete">
-        <v-card
+        <!-- <v-card
           elevation="0"
-        >
-          <v-card-text>
+        > -->
+          <v-card-text class="ma-0 pa-0">
             <NHome @click="$vuetify.goTo(this.$refs.contact)" />
             <v-row>
               <v-col>
@@ -54,7 +54,7 @@
             </v-row>
             <NMedia />
           </v-card-text>
-        </v-card>
+        <!-- </v-card> -->
       </div>
     </v-container>
     <NSignature />
