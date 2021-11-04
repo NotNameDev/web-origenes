@@ -1,5 +1,13 @@
 <template>
   <div class="nContact">
+    <v-row>
+    <v-col cols="12">
+      <h1 class="text-center text-uppercase mb-3">Contacto</h1>
+      <p></p>
+      <p>Por ventas, consultas o más información puede contactarse con nosotros por WhatsApp o completando el siguiente formulario:</p>
+      <p></p>
+    </v-col>
+    </v-row>
     <v-text-field
       label="Nombre"
       outlined

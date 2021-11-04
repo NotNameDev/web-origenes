@@ -1,5 +1,13 @@
 <template>
   <div class="nAbout">
+      <v-row>
+    <v-col cols="12">
+      <h1 class="text-center text-uppercase mb-3">Quiénes Somos</h1>
+      <p>Somos Fraccionadora Orígenes, una empresa familiar que se dedica al fraccionado, comercialización y distribución de azúcar común tipo A.</p>
+      <p>Contamos con más de 10 años de experiencia en el rubro y clientes que nos eligen desde distintos puntos de Argentina por nuestro compromiso, seriedad y la calidad de nuestros productos.</p>
+      <p>Tenemos dos sedes, la principal en Tucumán y otra en Córdoba Capital.</p>
+    </v-col>
+  </v-row>
   <v-carousel
     :show-arrows="!$vuetify.breakpoint.smAndDown"
     cycle
